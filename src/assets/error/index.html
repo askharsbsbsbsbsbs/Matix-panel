@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Matix v__VERSION__</title>
-    <link id="favicon" rel="icon" type="image/x-icon" href="data:image/x-icon;base64,__ICON__">
+    <title>Matix vVERSION</title>
+    <link id="favicon" rel="icon" type="image/x-icon" href="data:image/x-icon;base64,ICON">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -13,10 +13,11 @@
         rel="stylesheet">
     <style>
         :root {
-            --color-bg-main: linear-gradient(90deg, #000328, #00458E);
-            --color-text-primary: #f1f5f9;
-            --color-text-secondary: #aec4e2;
-            --shadow-header: 0.125rem 0.125rem 0.25rem #000328;
+            --color-bg-main: linear-gradient(135deg, #0a0014, #2d0a4e, #1a0033);
+            --color-text-primary: #f3e8ff;
+            --color-text-secondary: #c4a7e7;
+            --color-accent: #a855f7;
+            --shadow-header: 0.125rem 0.125rem 0.5rem #000000, 0 0 20px rgba(168, 85, 247, 0.3);
             --space-sm: 0.5rem;
         }
 
@@ -31,7 +32,6 @@
             font-family: "Ubuntu", system-ui;
             color: var(--color-text-secondary);
             background: var(--color-bg-main);
-            text-align: center;
             text-align: center;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
@@ -59,6 +59,7 @@
         .panel-version {
             align-self: flex-start;
             font-size: large;
+            color: var(--color-accent);
         }
     </style>
 </head>
@@ -66,11 +67,11 @@
 <body>
     <div id="error-container">
         <div class="header">
-            <img id="header-logo" src="data:image/x-icon;base64,__ICON__" alt="BPB Logo" width="48" height="48">
+            <img id="header-logo" src="data:image/x-icon;base64,ICON" alt="Matix Logo" width="48" height="48">
             <h1>
-                BPB Panel
+                Matix Panel
                 <span class="panel-version">
-                    v__VERSION__
+                    vVERSION
                 </span>
             </h1>
         </div>
@@ -78,7 +79,7 @@
         <div>
             <h2>❌ Something went wrong!</h2>
             <p>
-                <b>__ERROR_MESSAGE__</b>
+                <b>ERROR_MESSAGE</b>
             </p>
         </div>
     </div>
