@@ -1,0 +1,5 @@
+{
+  "name": "matix-panel2",
+  "main": "dist/worker.js",
+  "compatibility_date": "2026-08-06"
+}
